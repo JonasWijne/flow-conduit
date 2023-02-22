@@ -11,16 +11,10 @@
 
 ## Installation
 
-You can install `flow-conduit` via npm or yarn:
+You can install `flow-conduit` via npm:
 
-### npm
 ```bash
  npm install flow-conduit
-```
-
-### yarn
-```bash
-yarn add flow-conduit
 ```
 
 ## Usage
