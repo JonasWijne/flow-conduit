@@ -1,5 +1,11 @@
 # flow-conduit
 
+## 0.1.0
+
+### Minor Changes
+
+- 87e0976: first functional version
+
 ## 0.0.4
 
 ### Patch Changes
