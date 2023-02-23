@@ -16,7 +16,8 @@
     "build": "tsup src/index.ts --format esm,cjs --dts ",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
+    "example": "vite"
   },
   "repository": {
     "type": "git",
@@ -39,11 +40,17 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "jsdom": "^21.1.0",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
+    "vite": "^4.1.4",
     "vitest": "^0.28.5"
   }
 }

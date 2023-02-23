@@ -1,2 +1,10 @@
 src
 tsconfig.json
+example
+vite.config.ts
+pnpm-lock.yaml
+index.html
+.prettierignore
+.prettierrc.json
+.nvmrc
+.gitignore

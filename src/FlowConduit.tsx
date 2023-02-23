@@ -9,14 +9,14 @@ type FlowConduitProps = {
 export function FlowConduit({
   flowMapping,
   flowContext,
-}: FlowConduitProps): ReactElement | null {
+}: FlowConduitProps): JSX.Element {
   const { name, payload } = useContext(flowContext)
 
   const actionBarFn = name ? flowMapping[name] : null
 
   if (!actionBarFn) {
-    return null
+    return <></>
   }
 
-  return React.createElement(React.Fragment, {}, actionBarFn(payload))
+  return actionBarFn(payload)
 }

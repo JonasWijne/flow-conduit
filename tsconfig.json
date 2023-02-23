@@ -9,7 +9,8 @@
     "skipLibCheck": true, /* Skip type checking of declaration files. */
     "types": [
       "node"
-    ]
+    ],
+    "jsx": "react"
   },
   "exclude": [
     "dist",
