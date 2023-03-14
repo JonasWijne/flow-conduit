@@ -21,9 +21,7 @@ You can install `flow-conduit` via npm:
 
 ### Basic Example
 
-```typescript
-// TODO: Add basic example
-```
+https://codesandbox.io/s/flow-conduit-sbzd23
 
 ### API
 
