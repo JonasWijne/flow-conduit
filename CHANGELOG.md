@@ -1,5 +1,11 @@
 # flow-conduit
 
+## 0.2.0
+
+### Minor Changes
+
+- 0dfca51: change module
+
 ## 0.1.0
 
 ### Minor Changes
